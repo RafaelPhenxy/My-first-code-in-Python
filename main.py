@@ -1,0 +1,1 @@
+print("Olá, gringa! Já Já to ai...")
