@@ -1,2 +1,8 @@
 print("Olá, gringa! Já Já to ai...")
 print("Só tô dando um jeito aqui, já já to ai...")
+print(10+8)
+print(20-2)
+print(6*3)
+print(36/2)
+print(10%3)
+print(2*3**2)
