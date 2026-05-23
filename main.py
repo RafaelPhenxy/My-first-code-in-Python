@@ -43,3 +43,7 @@ for item in List:
 Listprice = [200, 150, 100, 300]
 for price in Listprice:
     print(price*2)
+
+#Loops
+for x in range(3):
+    print("Idk what to say, but I have to say something...")j
