@@ -31,3 +31,13 @@ elif profit < Meta:
     print("Not bad, but you can do better!")
 else:
     print("excellent Work")
+
+
+List = ["Cpu", "Ram", "Ssd", "Motherboard"]
+print(List[2])
+print(List[1])
+for item in List:
+    print(item)
+Listprice = [200, 150, 100, 300]
+for price in Listprice:
+    print(price*2)
