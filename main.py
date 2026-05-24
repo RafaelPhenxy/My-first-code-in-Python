@@ -46,4 +46,4 @@ for price in Listprice:
 
 #Loops
 for x in range(3):
-    print("Idk what to say, but I have to say something...")j
+    print("Idk what to say, but I have to say something...")
