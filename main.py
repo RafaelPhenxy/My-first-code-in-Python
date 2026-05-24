@@ -50,7 +50,12 @@ for price in Listprice:
 for i in range(3):
     print("Idk what to say, but I have to say something...")
 
-
-your_name =  input("Insert your name: ")
+#Input
+your_name =  input("Insert your name:")
 your_age = input ("insert your age:")
-print("Your name is", your_name, "and your age is", your_age)
+day = input("What a day of your birthday?")
+month = input("What a month of your birthday?")
+year  = input("What a year of your bithday?")
+print("Your name is", your_name, "and your age is", your_age, "and your bithday is", day, "of", month, "of", year,"Right?")
+print("Hello", your_name, "! Nice to meet you!")
+input("press enter to continue")
