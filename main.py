@@ -8,26 +8,28 @@ print(20-2)
 print(6*3)
 print(36/2)
 print(2*3**2)
+print("7" + "3")
+print("Hello", 7, "times")
 
 #Variables
-Sales = 250
+sales = 250
 cost = 50
-Goal = 150
-profit = Sales - cost
+goal = 150
+profit = sales - cost
 
 #Print with a variable and a string
 print("Your profit is:", profit)
 print("Your cost is:", cost)
-print("Your sales are:", Sales)
-
-#Calculating with variables
-My_age = 5*3
-print("My age is:", My_age)
+print("Your sales are:", sales)
+name = "Rafael"
+weight = 65
+my_age = 5*3
+print("My name is", name, ", my age is", my_age, "and my weight is", weight, "kg.")
 
 #If, elif and else
-if profit == Goal:
+if profit == goal:
     print("Great Job")
-elif profit < Goal:
+elif profit < goal:
     print("Not bad, but you can do better!")
 else:
     print("excellent Work")
@@ -35,7 +37,7 @@ else:
 #Lists
 List = ["Cpu", "Ram", "Ssd", "Motherboard"]
 print(List[2])
-print(List[1])
+print(List[1*2])
 for item in List:
     print(item)
 
@@ -45,5 +47,10 @@ for price in Listprice:
     print(price*2)
 
 #Loops
-for x in range(3):
+for i in range(3):
     print("Idk what to say, but I have to say something...")
+
+
+your_name =  input("Insert your name: ")
+your_age = input ("insert your age:")
+print("Your name is", your_name, "and your age is", your_age)
